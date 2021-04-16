@@ -13,3 +13,9 @@ npm run build
 /dist # Compiled files
 /src  # Source files
 ```
+
+## Deployment
+
+```bash
+git subtree push --prefix dist origin gh-pages
+```

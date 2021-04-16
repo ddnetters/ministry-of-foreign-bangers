@@ -143,7 +143,3 @@ temp/
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode
 
-# build files
-dist/*
-!dist/index.html
-!dist/img

@@ -90,15 +90,11 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Storybook build outputs
 .out
 .storybook-out
 storybook-static
-
-# rollup.js default build output
-dist/
 
 # Gatsby files
 .cache/
@@ -146,3 +142,8 @@ temp/
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode
+
+# build files
+dist/*
+!dist/index.html
+!dist/img

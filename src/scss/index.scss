@@ -1,0 +1,40 @@
+@import "./variables";
+
+body {
+    background: white;
+    font-family: "RO Sans", Calibri, sans-serif;
+}
+
+header{
+    .message{
+        background: $gray;
+
+        p{
+            margin: 0;
+            padding: 5px 16px;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+
+    #logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        img, p{
+            // display: block;
+            // float: left;
+        }
+
+        p{
+            font-family: "RO Serif", Calibri, sans-serif;
+            padding: 0 16px;
+            font-size: $logo-font-size;
+            margin: 0;
+            
+            // margin: calc(50px - ( #{$logo-font-size} / 2 )) 0 0 0;
+        }
+    }
+}

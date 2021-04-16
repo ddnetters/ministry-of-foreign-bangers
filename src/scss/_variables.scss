@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "RO Sans";
+    font-weight: normal;
+    font-style: normal;
+    src:
+    url("../fonts/RO-SansWebText-Regular.woff2") format("woff2"),
+    url("../fonts/RO-SansWebText-Regular.woff") format("woff")
+}
+
+@font-face {
+    font-family: "RO Serif";
+    font-weight: normal;
+    font-style: normal;
+    src:
+    url("../fonts/rijksoverheidserif-italic.ttf") format("ttf")
+}
+
+@font-face {
+    font-family: "RO Sans";
+    font-weight: normal;
+    font-style: italic;
+    src:
+    url("../fonts/RO-SansWebText-Italic.woff2") format("woff2"),
+    url("../fonts/RO-SansWebText-Italic.woff") format("woff")
+}
+
+@font-face {
+    font-family: "RO Sans";
+    font-weight: bold;
+    font-style: normal;
+    src:
+    url("../fonts/RO-SansWebText-Bold.woff2") format("woff2"),
+    url("../fonts/RO-SansWebText-Bold.woff") format("woff")
+}
+
+@font-face {
+    font-family: "RO Serif";
+    font-weight: normal;
+    font-style: normal;
+    src:
+    url("../fonts/RO-SerifWeb-Regular.woff2") format("woff2"),
+    url("../fonts/RO-SerifWeb-Regular.woff") format("woff")
+}
+
+@font-face {
+    font-family: "RO Serif";
+    font-weight: normal;
+    font-style: italic;
+    src:
+    url("../fonts/RO-SerifWeb-Italic.woff2") format("woff2"),
+    url("../fonts/RO-SerifWeb-Italic.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Meta Sans";
+    font-weight: normal;
+    font-style: normal;
+    src:
+    url("../fonts/meta.woff2") format("woff2"),
+    url("../fonts/meta.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Meta Sans";
+    font-weight: bold;
+    font-style: normal;
+    src:
+    url("../fonts/meta-bold.woff2") format("woff2"),
+    url("../fonts/meta-bold.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Meta Sans";
+    font-weight: normal;
+    font-style: italic;
+    src:
+    url("../fonts/meta-italic.woff2") format("woff2"),
+    url("../fonts/meta-italic.woff") format("woff")
+}
+
+$logo-font-size: 18px;
+$gray: #f3f3f3;

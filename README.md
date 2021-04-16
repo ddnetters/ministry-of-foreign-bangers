@@ -1,6 +1,6 @@
 # Ministry of Foreign Bangers
 
-Dutch government style [website][https://ddnetters.github.io/ministry-of-foreign-bangers/] for a spotify playlist.
+Dutch government style [website](https://ddnetters.github.io/ministry-of-foreign-bangers/) for a spotify playlist.
 
 ## Project setup
 

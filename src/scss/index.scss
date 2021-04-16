@@ -1,0 +1,184 @@
+@import "./variables";
+
+body {
+    background: white;
+    font-family: "RO Sans", Calibri, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    margin: 0 0 25px 0;
+
+    .message {
+        background: $gray;
+        color: $warning;
+
+        p {
+            margin: 0;
+            padding: 5px 16px;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+
+    #logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-family: "RO Serif", Calibri, sans-serif;
+            padding: 0 16px;
+            font-size: $logo-font-size;
+            margin: 0;
+        }
+    }
+}
+
+nav {
+    .bar {
+        padding: 25px 0;
+        background: $accent;
+        color: white;
+    }
+
+    .hero {
+        height: 50vh;
+        min-height: 250px;
+        background: url('../img/prins-pils.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+    .sub-navigation {
+        background: $gray;
+        margin: 0;
+        padding: 25px 0;
+
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        a {
+            position: relative;
+            text-decoration: none;
+            color: $links;
+            padding-left: 25px;
+            font-size: 20px;
+
+            &:hover {
+                color: $links-hover;
+                text-decoration: underline;
+            }
+
+            &:before {
+                font-family: "RO Icons";
+                content: ">";
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+.content {
+    .intro {
+        p {
+            font-size: 25px;
+        }
+    }
+
+    hr {
+        width: 100%;
+        border: none;
+        height: 1px;
+        background-color: rgb(225, 225, 225);
+    }
+
+    .ministers {
+        padding: 25px 0;
+
+        .minister {
+            display: inline-block;
+
+            @media screen and (max-width: 800px) {
+                width: 100%;
+            }
+
+            &+.minister {
+                padding: 0 0 0 25px;
+
+                @media screen and (max-width: 800px) {
+                    padding: 25px 0 0 0;
+                }
+            }
+
+            a {
+                position: relative;
+                text-decoration: none;
+                color: $links;
+                font-size: 20px;
+
+                .image {
+                    width: 350px;
+                    height: 250px;
+                    background-size: cover;
+                    background-position: center center;
+                    margin: 0 0 10px 0;
+
+                    @media screen and (max-width: 800px) {
+                        width: 100%;
+                    }
+                }
+
+                &:hover {
+                    color: $links-hover;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .content-box {
+        width: 66%;
+
+        .box{
+            margin-bottom: 50px;
+        }
+    }
+}
+
+footer {
+    background: $accent;
+    min-height: 450px;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.container {
+    width: calc(100% - 50px);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: $links;
+
+    &:hover {
+        color: $links-hover;
+        text-decoration: underline;
+    }
+}

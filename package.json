@@ -1,0 +1,25 @@
+{
+  "name": "ministry-of-foreign-bangers",
+  "version": "1.0.0",
+  "description": "Unofficial Dutch Ministry of Foreign Bangers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddnetters/ministry-of-foreign-bangers.git"
+  },
+  "keywords": [
+    "spotify",
+    "dutch",
+    "ministry",
+    "bangers"
+  ],
+  "author": "Dominique Netters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddnetters/ministry-of-foreign-bangers/issues"
+  },
+  "homepage": "https://github.com/ddnetters/ministry-of-foreign-bangers#readme"
+}

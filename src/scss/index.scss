@@ -6,8 +6,11 @@ body {
 }
 
 header{
+    margin: 0 0 25px 0;
+
     .message{
         background: $gray;
+        color: $warning;
 
         p{
             margin: 0;
@@ -23,18 +26,90 @@ header{
         justify-content: center;
         align-items: center;
 
-        img, p{
-            // display: block;
-            // float: left;
-        }
-
         p{
             font-family: "RO Serif", Calibri, sans-serif;
             padding: 0 16px;
             font-size: $logo-font-size;
             margin: 0;
-            
-            // margin: calc(50px - ( #{$logo-font-size} / 2 )) 0 0 0;
         }
     }
+}
+
+nav{
+    .bar{
+        min-height: 75px;
+        line-height: 75px;
+        background: $accent;
+        color: white;
+    }
+    
+    .hero{
+        height: 50vh;
+        min-height: 250px;
+        background: url('../img/prins-pils.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+    .sub-navigation{
+        background: $gray;
+        margin: 0;
+        padding: 25px 0;
+    
+        ul, li{
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            list-style-type: none;
+        }
+
+        a{
+            position: relative;
+            text-decoration: none;
+            color: $links;
+            padding-left: 25px;
+            font-size: 20px;
+
+            &:hover{
+                color: $links-hover;
+                text-decoration: underline;
+            }
+
+            &:before{
+                font-family: "RO Icons";
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 5px;
+            }
+        }
+    }
+}
+
+footer{
+    background: $accent;
+    min-height: 450px;
+}
+
+.content{
+    .intro{
+        p{
+            font-size: 25px;
+        }
+    }
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: calc(100% - 50px);
+    max-width: 1200px;
+    margin: 0 auto;
 }

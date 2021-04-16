@@ -16,6 +16,14 @@
 }
 
 @font-face {
+    font-family: "RO icons";
+    font-weight: normal;
+    font-style: normal;
+    src:
+    url("../fonts/ro-icons-2.1.woff2") format("ttf")
+}
+
+@font-face {
     font-family: "RO Sans";
     font-weight: normal;
     font-style: italic;
@@ -78,5 +86,9 @@
     url("../fonts/meta-italic.woff") format("woff")
 }
 
-$logo-font-size: 18px;
+$logo-font-size: 14px;
 $gray: #f3f3f3;
+$accent: #01689b;
+$warning: #dc3545;
+$links: #01689b;
+$links-hover: #01496d;
